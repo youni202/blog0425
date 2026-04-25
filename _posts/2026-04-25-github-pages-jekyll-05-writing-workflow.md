@@ -162,23 +162,39 @@ permalink: /series/github-pages-jekyll/01-create-repository/
 
 ## 이미지 넣기
 
-이미지는 `assets/images` 폴더에 모아두면 관리하기 쉽습니다.
+이미지는 글별 폴더에 모아두면 관리하기 쉽습니다. 특히 워드 문서나 기존 블로그에서 이미지를 옮길 때는 글과 이미지 폴더가 1:1로 매칭되어야 누락을 줄일 수 있습니다.
 
 ```txt
 assets/
 └── images/
-    └── github-pages-settings.png
+    └── posts/
+        └── github-pages-jekyll/
+            ├── 01-create-repository.png
+            └── 02-pages-settings.png
 ```
 
-Markdown에서는 다음처럼 사용합니다.
+이미지는 `figure.html` include로 넣습니다.
 
 {% raw %}
-```md
-![GitHub Pages settings]({{ "/assets/images/github-pages-settings.png" | relative_url }})
+```liquid
+{% include figure.html
+  src="/assets/images/posts/github-pages-jekyll/02-pages-settings.png"
+  alt="GitHub 저장소의 Pages 설정 화면에서 GitHub Actions가 선택된 모습"
+  caption="GitHub Pages의 배포 방식을 GitHub Actions로 선택합니다."
+  credit="출처: GitHub 화면 캡처"
+%}
 ```
 {% endraw %}
 
-`relative_url`을 사용하면 `baseurl`이 있는 GitHub Pages에서도 경로가 안전하게 만들어집니다.
+`alt`에는 이미지를 볼 수 없는 사람도 내용을 이해할 수 있는 설명을 적습니다. `caption`에는 이미지가 본문에서 어떤 맥락을 갖는지 적습니다.
+
+이미지 파일 이름은 순서를 알 수 있게 작성합니다.
+
+```txt
+01-overview.png
+02-create-repository.png
+03-pages-settings.png
+```
 
 ## 발행 흐름
 
@@ -214,6 +230,7 @@ push가 끝나면 GitHub Actions가 자동으로 사이트를 다시 빌드하�
 - 글 목록 페이지에 새 글이 보이는지 확인합니다.
 - 새 글 URL을 직접 열어봅니다.
 - 표, 코드 블록, 이미지, 링크가 제대로 보이는지 확인합니다.
+- 이미지마다 alt와 caption이 빠지지 않았는지 확인합니다.
 
 ## 운영 팁
 
@@ -222,7 +239,7 @@ push가 끝나면 GitHub Actions가 자동으로 사이트를 다시 빌드하�
 | 글이 아직 덜 완성됨 | `_drafts/` 폴더에 보관 |
 | 글은 공개하지만 메뉴에는 숨김 | `nav_exclude: true` 사용 |
 | 시리즈 글을 묶고 싶음 | 시리즈 목차 페이지와 고정 permalink 사용 |
-| 이미지가 필요함 | `assets/images/` 폴더 사용 |
+| 이미지가 필요함 | `assets/images/posts/post-slug/` 폴더와 `figure.html` 사용 |
 | 링크가 자주 깨짐 | `relative_url` 필터 사용 |
 | 긴 코드 예시가 있음 | fenced code block 사용 |
 | GitHub Actions 문법을 글에 넣음 | Liquid의 raw/endraw 태그 사용 |

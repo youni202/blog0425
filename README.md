@@ -22,3 +22,13 @@ YYYY-MM-DD-post-title.md
 ```
 
 Use `_templates/post.md` as a starting point.
+
+## Images
+
+Store post images by slug:
+
+```txt
+assets/images/posts/post-slug/
+```
+
+Render images with `_includes/figure.html` so every image has alt text and an optional caption.

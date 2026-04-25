@@ -1,0 +1,14 @@
+{% assign figure_src = include.src | default: "" %}
+{% assign figure_alt = include.alt | default: include.caption | default: "" %}
+{% assign figure_caption = include.caption | default: "" %}
+{% assign figure_credit = include.credit | default: "" %}
+
+<figure class="post-figure">
+  <img src="{{ figure_src | relative_url }}" alt="{{ figure_alt | escape }}">
+  {% if figure_caption != "" or figure_credit != "" %}
+    <figcaption>
+      {% if figure_caption != "" %}{{ figure_caption }}{% endif %}
+      {% if figure_credit != "" %}<span class="post-figure-credit">{{ figure_credit }}</span>{% endif %}
+    </figcaption>
+  {% endif %}
+</figure>
