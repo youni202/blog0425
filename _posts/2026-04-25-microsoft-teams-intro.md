@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Microsoft Teams 소개
-date: 2026-04-25 17:30:00 +0900
+date: 2026-04-25 17:00:00 +0900
 nav_exclude: true
 ---
 
