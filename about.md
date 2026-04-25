@@ -1,12 +1,14 @@
 ---
 layout: default
-title: About
+title: 소개
 nav_order: 2
 ---
 
-# About
+# 소개
 
-This is a personal blog built with GitHub Pages and Just the Docs.
+안녕하세요. 이곳은 Youni의 개인 블로그입니다.
+
+배운 것, 만들고 있는 것, 다시 찾아보고 싶은 생각들을 정리합니다.
 
 {: .note }
-You can edit this page later with your own introduction, links, and profile.
+이 페이지는 나중에 프로필, 관심사, 연락처, 프로젝트 링크로 채워가면 됩니다.
