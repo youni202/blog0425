@@ -1,0 +1,28 @@
+title: Youni Blog
+description: GitHub Pages blog powered by Just the Docs
+theme: just-the-docs
+
+url: "https://youni202.github.io"
+baseurl: "/blog0425"
+
+permalink: pretty
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "GitHub":
+    - "https://github.com/youni202/blog0425"
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/youni202/blog0425"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+callouts:
+  note:
+    title: Note
+    color: blue
+  highlight:
+    title: Highlight
+    color: yellow
