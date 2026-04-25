@@ -3,6 +3,7 @@ layout: default
 title: "2. 로컬에 저장소 클론하고 첫 커밋 준비하기"
 date: 2026-04-25 00:20:00 +0900
 nav_exclude: true
+permalink: /series/github-pages-jekyll/02-clone-repository/
 ---
 
 # 2. 로컬에 저장소 클론하고 첫 커밋 준비하기
@@ -54,4 +55,4 @@ git push
 
 ## 다음 글
 
-[Jekyll 테마 선택하고 기본 파일 만들기]({{ "/2026/04/25/github-pages-jekyll-03-setup-jekyll-theme/" | relative_url }})
+[Jekyll 테마 선택하고 기본 파일 만들기]({{ "/series/github-pages-jekyll/03-setup-jekyll-theme/" | relative_url }})

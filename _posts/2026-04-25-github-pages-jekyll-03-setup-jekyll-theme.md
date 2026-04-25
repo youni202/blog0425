@@ -3,6 +3,7 @@ layout: default
 title: "3. Jekyll 테마 선택하고 기본 파일 만들기"
 date: 2026-04-25 00:30:00 +0900
 nav_exclude: true
+permalink: /series/github-pages-jekyll/03-setup-jekyll-theme/
 ---
 
 # 3. Jekyll 테마 선택하고 기본 파일 만들기
@@ -78,4 +79,4 @@ GitHub Pages와 Jekyll로 운영하는 블로그입니다.
 
 ## 다음 글
 
-[GitHub Pages 설정하고 자동 배포하기]({{ "/2026/04/25/github-pages-jekyll-04-deploy-pages/" | relative_url }})
+[GitHub Pages 설정하고 자동 배포하기]({{ "/series/github-pages-jekyll/04-deploy-pages/" | relative_url }})

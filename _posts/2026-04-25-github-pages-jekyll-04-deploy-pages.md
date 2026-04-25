@@ -3,6 +3,7 @@ layout: default
 title: "4. GitHub Pages 설정하고 자동 배포하기"
 date: 2026-04-25 00:40:00 +0900
 nav_exclude: true
+permalink: /series/github-pages-jekyll/04-deploy-pages/
 ---
 
 # 4. GitHub Pages 설정하고 자동 배포하기
@@ -98,4 +99,4 @@ GitHub 저장소의 `Actions` 탭에서 배포가 성공했는지 확인합니�
 
 ## 다음 글
 
-[글 작성 흐름과 운영 팁 정리하기]({{ "/2026/04/25/github-pages-jekyll-05-writing-workflow/" | relative_url }})
+[글 작성 흐름과 운영 팁 정리하기]({{ "/series/github-pages-jekyll/05-writing-workflow/" | relative_url }})

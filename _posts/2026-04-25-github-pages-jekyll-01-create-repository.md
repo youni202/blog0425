@@ -3,6 +3,7 @@ layout: default
 title: "1. GitHub 저장소 만들기"
 date: 2026-04-25 00:10:00 +0900
 nav_exclude: true
+permalink: /series/github-pages-jekyll/01-create-repository/
 ---
 
 # 1. GitHub 저장소 만들기
@@ -42,4 +43,4 @@ https://github.com/username/repository-name.git
 
 ## 다음 글
 
-[로컬에 저장소 클론하고 첫 커밋 준비하기]({{ "/2026/04/25/github-pages-jekyll-02-clone-repository/" | relative_url }})
+[로컬에 저장소 클론하고 첫 커밋 준비하기]({{ "/series/github-pages-jekyll/02-clone-repository/" | relative_url }})

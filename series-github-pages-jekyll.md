@@ -11,11 +11,11 @@ GitHub에 새 저장소를 만들고, Jekyll 테마를 적용해 GitHub Pages �
 
 ## 시리즈 구성
 
-1. [GitHub 저장소 만들기]({{ "/2026/04/25/github-pages-jekyll-01-create-repository/" | relative_url }})
-2. [로컬에 저장소 클론하고 첫 커밋 준비하기]({{ "/2026/04/25/github-pages-jekyll-02-clone-repository/" | relative_url }})
-3. [Jekyll 테마 선택하고 기본 파일 만들기]({{ "/2026/04/25/github-pages-jekyll-03-setup-jekyll-theme/" | relative_url }})
-4. [GitHub Pages 설정하고 자동 배포하기]({{ "/2026/04/25/github-pages-jekyll-04-deploy-pages/" | relative_url }})
-5. [글 작성 흐름과 운영 팁 정리하기]({{ "/2026/04/25/github-pages-jekyll-05-writing-workflow/" | relative_url }})
+1. [GitHub 저장소 만들기]({{ "/series/github-pages-jekyll/01-create-repository/" | relative_url }})
+2. [로컬에 저장소 클론하고 첫 커밋 준비하기]({{ "/series/github-pages-jekyll/02-clone-repository/" | relative_url }})
+3. [Jekyll 테마 선택하고 기본 파일 만들기]({{ "/series/github-pages-jekyll/03-setup-jekyll-theme/" | relative_url }})
+4. [GitHub Pages 설정하고 자동 배포하기]({{ "/series/github-pages-jekyll/04-deploy-pages/" | relative_url }})
+5. [글 작성 흐름과 운영 팁 정리하기]({{ "/series/github-pages-jekyll/05-writing-workflow/" | relative_url }})
 
 ## 전체 흐름
 

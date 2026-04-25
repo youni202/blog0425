@@ -3,6 +3,7 @@ layout: default
 title: "5. 글 작성 흐름과 운영 팁 정리하기"
 date: 2026-04-25 00:50:00 +0900
 nav_exclude: true
+permalink: /series/github-pages-jekyll/05-writing-workflow/
 ---
 
 # 5. 글 작성 흐름과 운영 팁 정리하기
