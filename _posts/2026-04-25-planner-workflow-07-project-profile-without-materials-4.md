@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "2. Project Profile"
-date: 2026-04-25 10:10:00 +0900
+title: "7. 자료가 없다면 Project Profile 4"
+date: 2026-04-25 11:00:00 +0900
 nav_exclude: true
-permalink: /series/planner-workflow/02-project-profile/
+permalink: /series/planner-workflow/07-project-profile-without-materials-4/
 ---
 
-# 2. Project Profile
+# 7. 자료가 없다면 Project Profile 4
 
-원본 워드 문서 `04.Project Profile.docx`의 내용을 블로그 시리즈 흐름에 맞춰 옮긴 글입니다.
+원본 워드 문서 `04-1.(자료가 없다면)Project Profile 4.docx`의 내용을 블로그 시리즈 흐름에 맞춰 옮긴 글입니다.
 
 | 1. 고객사 정보 |  |
 | --- | --- |

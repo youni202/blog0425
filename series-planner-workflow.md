@@ -7,63 +7,59 @@ permalink: /series/planner-workflow/
 
 # 기획자의 프로젝트 문서 흐름
 
-기획자가 프로젝트를 시작하고, 제안하고, 수행사를 관리하고, 검수와 오픈까지 끌고 가는 과정에서 자주 쓰는 문서를 순서대로 정리한 시리즈입니다.
+기획자가 프로젝트를 시작하고, 제안하고, 수행사를 관리하고, 검수와 오픈까지 끌고 가는 과정에서 자주 쓰는 문서를 워드 원본 기준으로 한 편씩 풀어낸 시리즈입니다.
 
-워드 문서로 남아 있던 실무 템플릿을 블로그 글로 옮기면서, 그대로 복사하기보다 실제 업무에서 다시 꺼내 쓰기 쉬운 흐름으로 재구성했습니다.
+이번 구성은 원본 파일 24개를 각각 별도 글로 옮긴 형태입니다. 비슷한 제목의 문서도 버전과 쓰임이 다르므로, 실제 업무에서 비교해 볼 수 있도록 독립된 글로 남겼습니다.
 
 ## 시리즈 구성
 
-1. [10년차 IT 서비스 기획자의 하루]({{ "/series/planner-workflow/01-planner-daily-routine/" | relative_url }})
-2. [프로젝트 프로파일로 시작 정보 정리하기]({{ "/series/planner-workflow/02-project-profile/" | relative_url }})
-3. [제안 분석서로 제안 여부 판단하기]({{ "/series/planner-workflow/03-proposal-analysis/" | relative_url }})
-4. [프로젝트 분석서로 수행 구조 잡기]({{ "/series/planner-workflow/04-project-analysis/" | relative_url }})
-5. [인력 배치서로 TF 구성 요청하기]({{ "/series/planner-workflow/05-staffing-plan/" | relative_url }})
-6. [수행사와 다툼 없이 손절 가능한 계약 조건]({{ "/series/planner-workflow/06-contract-exit-terms/" | relative_url }})
-7. [제안 리뷰서로 다음 제안을 더 잘 준비하기]({{ "/series/planner-workflow/07-proposal-review/" | relative_url }})
-8. [검수 계획서로 검수의 기준 세우기]({{ "/series/planner-workflow/08-acceptance-test-plan/" | relative_url }})
-9. [검수 시나리오로 테스트를 실행 가능하게 만들기]({{ "/series/planner-workflow/09-acceptance-test-scenario/" | relative_url }})
-10. [데이터 이전 계획서와 오류 리포트로 오픈 마무리하기]({{ "/series/planner-workflow/10-migration-and-error-report/" | relative_url }})
+1. [10년차 IT 서비스 기획자의 일상 업무 일과]({{ "/series/planner-workflow/01-planner-daily-routine/" | relative_url }})
+2. [Project Profile]({{ "/series/planner-workflow/02-project-profile/" | relative_url }})
+3. [Project Profile 2]({{ "/series/planner-workflow/03-project-profile-2/" | relative_url }})
+4. [자료가 없다면 Project Profile]({{ "/series/planner-workflow/04-project-profile-without-materials/" | relative_url }})
+5. [자료가 없다면 Project Profile 2]({{ "/series/planner-workflow/05-project-profile-without-materials-2/" | relative_url }})
+6. [자료가 없다면 Project Profile 3]({{ "/series/planner-workflow/06-project-profile-without-materials-3/" | relative_url }})
+7. [자료가 없다면 Project Profile 4]({{ "/series/planner-workflow/07-project-profile-without-materials-4/" | relative_url }})
+8. [자료가 없다면 Project Profile 5]({{ "/series/planner-workflow/08-project-profile-without-materials-5/" | relative_url }})
+9. [제안분석서 샘플]({{ "/series/planner-workflow/09-proposal-analysis-sample/" | relative_url }})
+10. [프로젝트분석서: Project Profile 활용]({{ "/series/planner-workflow/10-project-analysis-profile/" | relative_url }})
+11. [인력배치서]({{ "/series/planner-workflow/11-staffing-plan/" | relative_url }})
+12. [인력배치서 2]({{ "/series/planner-workflow/12-staffing-plan-2/" | relative_url }})
+13. [아니다 싶은 수행사와 다툼없이 손절하는 방법: 계약사항]({{ "/series/planner-workflow/13-contract-exit-terms/" | relative_url }})
+14. [아니다 싶은 수행사와 다툼없이 손절하는 방법: 계약사항 2]({{ "/series/planner-workflow/14-contract-exit-terms-2/" | relative_url }})
+15. [제안리뷰서]({{ "/series/planner-workflow/15-proposal-review/" | relative_url }})
+16. [검수계획서]({{ "/series/planner-workflow/16-acceptance-test-plan/" | relative_url }})
+17. [검수계획서 2]({{ "/series/planner-workflow/17-acceptance-test-plan-2/" | relative_url }})
+18. [검수계획서 샘플]({{ "/series/planner-workflow/18-acceptance-test-plan-sample/" | relative_url }})
+19. [검수계획서 샘플 2]({{ "/series/planner-workflow/19-acceptance-test-plan-sample-2/" | relative_url }})
+20. [검수시나리오 샘플]({{ "/series/planner-workflow/20-acceptance-test-scenario-sample/" | relative_url }})
+21. [보강이 필요한 검수시나리오 샘플]({{ "/series/planner-workflow/21-acceptance-test-scenario-needs-work/" | relative_url }})
+22. [데이터이전계획서]({{ "/series/planner-workflow/22-migration-plan/" | relative_url }})
+23. [오류리포트]({{ "/series/planner-workflow/23-error-report/" | relative_url }})
+24. [오류리포트 2]({{ "/series/planner-workflow/24-error-report-2/" | relative_url }})
 
 ## 전체 흐름
 
-| 단계 | 핵심 질문 | 대표 산출물 |
+| 구간 | 핵심 흐름 | 대표 문서 |
 | --- | --- | --- |
-| 일상 운영 | 오늘 무엇을 확인하고 기록할까? | 일정, 할 일, 회의록, 일일 보고 |
-| 프로젝트 파악 | 고객과 프로젝트의 기본 정보가 충분한가? | Project Profile |
-| 제안 판단 | 제안할 만한 프로젝트인가? | 제안 분석서 |
-| 수행 구조화 | 범위, 일정, 역할, 리스크가 보이는가? | 프로젝트 분석서 |
-| 인력 구성 | 어떤 역할의 사람이 언제 필요한가? | 인력 배치서 |
-| 계약 관리 | 단계별 검수와 중단 조건이 분명한가? | 계약 조건 |
-| 회고 | 다음 제안에서 무엇을 바꿀까? | 제안 리뷰서 |
-| 검수 준비 | 누가, 무엇을, 언제 검수할까? | 검수 계획서 |
-| 검수 실행 | 누구나 같은 방식으로 테스트할 수 있는가? | 검수 시나리오 |
-| 오픈 마무리 | 이전과 오류 대응이 통제되고 있는가? | 데이터 이전 계획서, 오류 리포트 |
+| 1-8 | 프로젝트 시작 정보 정리 | 일상 업무, Project Profile, 자료 부족 상황 |
+| 9-10 | 제안과 수행 구조 판단 | 제안분석서, 프로젝트분석서 |
+| 11-14 | 인력과 계약 관리 | 인력배치서, 계약사항 |
+| 15 | 제안 회고 | 제안리뷰서 |
+| 16-21 | 검수 준비와 실행 | 검수계획서, 검수시나리오 |
+| 22-24 | 오픈 마무리 | 데이터이전계획서, 오류리포트 |
 
 ## 읽는 방법
 
-이 시리즈는 문서 이름을 외우는 글이 아니라, 프로젝트가 앞으로 갈수록 어떤 질문이 생기고 그 질문을 어떤 문서로 잠그는지 보는 글입니다.
+처음부터 끝까지 읽으면 프로젝트 문서가 어떻게 이어지는지 볼 수 있고, 필요한 문서만 골라 읽으면 템플릿처럼 다시 꺼내 쓸 수 있습니다.
 
 | 읽는 상황 | 먼저 볼 글 |
 | --- | --- |
-| 새 프로젝트를 처음 받았을 때 | 2편 Project Profile, 3편 제안 분석서 |
-| 제안서를 써야 할 때 | 3편 제안 분석서, 7편 제안 리뷰서 |
-| 착수 직후 팀을 구성해야 할 때 | 4편 프로젝트 분석서, 5편 인력 배치서 |
-| 수행사가 불안하거나 범위가 흔들릴 때 | 6편 계약 조건, 8편 검수 계획서 |
-| 오픈이 가까워졌을 때 | 8편 검수 계획서, 9편 검수 시나리오, 10편 데이터 이전 계획서 |
-
-## 문서가 이어지는 방식
-
-각 문서는 다음 문서의 입력값이 됩니다. 예를 들어 Project Profile에서 정리한 성공 기준은 제안 분석서의 전략이 되고, 계약 조건의 검수 기준이 되며, 검수 계획서의 완료 기준으로 다시 나타납니다.
-
-| 앞 문서 | 뒤 문서로 넘어가는 정보 |
-| --- | --- |
-| Project Profile | 고객 정보, 범위, 예산, 일정, 성공 기준 |
-| 제안 분석서 | 제안 전략, 리스크, 투입 필요 인력 |
-| 프로젝트 분석서 | 업무 배분, 개발 순서, 주요 이슈 |
-| 인력 배치서 | 역할별 투입 시점과 역량 조건 |
-| 계약 조건 | 단계별 산출물과 미통과 시 조치 |
-| 검수 계획서 | 검수 범위, 담당자, 일정 |
-| 검수 시나리오 | 실제 테스트 결과와 오류 목록 |
+| 새 프로젝트를 처음 받았을 때 | 1-8편 |
+| 제안 여부와 수행 구조를 판단할 때 | 9-10편 |
+| 사람과 계약 조건을 정리할 때 | 11-14편 |
+| 제안 후 회고가 필요할 때 | 15편 |
+| 검수와 오픈을 준비할 때 | 16-24편 |
 
 {: .note }
-문서는 단독으로 잘 쓰는 것보다 앞뒤 문서와 이어질 때 힘이 생깁니다. 프로젝트 프로파일의 범위와 성공 기준이 제안 분석서, 계약 조건, 검수 계획서까지 이어지도록 관리하는 것이 핵심입니다.
+원본 워드 파일은 저장소에 올리지 않고, 블로그용 마크다운 포스트만 추적합니다.

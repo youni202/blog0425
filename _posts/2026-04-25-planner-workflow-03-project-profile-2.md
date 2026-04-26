@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "2. Project Profile"
-date: 2026-04-25 10:10:00 +0900
+title: "3. Project Profile 2"
+date: 2026-04-25 10:20:00 +0900
 nav_exclude: true
-permalink: /series/planner-workflow/02-project-profile/
+permalink: /series/planner-workflow/03-project-profile-2/
 ---
 
-# 2. Project Profile
+# 3. Project Profile 2
 
-원본 워드 문서 `04.Project Profile.docx`의 내용을 블로그 시리즈 흐름에 맞춰 옮긴 글입니다.
+원본 워드 문서 `04.Project Profile 2.docx`의 내용을 블로그 시리즈 흐름에 맞춰 옮긴 글입니다.
 
 | 1. 고객사 정보 |  |
 | --- | --- |
